@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main Content</a>
+
+    {% include header.html %}
+
+    <main id="main">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+    <script defer src="/assets/js/nav.js"></script>
+  </body>
+</html>

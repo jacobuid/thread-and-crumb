@@ -1,86 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+---
+layout: default
+title: Portfolio
+css:
+  - /css/portfolio.css
+---
 
-    <!--Swap our for actual link-->
-    <link rel="canonical" href="https://www.website.com/">
+<div id="banner-712">
+  <div class="cs-container">
+    <span class="cs-int-title">Portfolio</span>
+  </div>
+  <picture class="cs-background">
+    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FMISC%2Fpills.jpg">
+    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FMISC%2Fpills.jpg">
+    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FMISC%2Fpills.jpg" alt="pills" width="1280" height="568" aria-hidden="true">
+  </picture>
+</div>
 
-    <meta name="description" content="Meta description for the page">
-    <meta name="keywords" content="">
+<section id="gallery-48">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">Our Portfolio</span>
+      <h2 class="cs-title">Et orci volutpat, back up generator installations</h2>
+    </div>
+    <div class="cs-image-group">
+      <!-- image rows omitted for brevity -->
+    </div>
+  </div>
+</section>
 
-    <!--Social Media Display-->
-    <meta property="og:title" content="Title that shows up on google searches"/>
-    <meta property="og:description" content="Meta description for the page"/>
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="Official link for that page (https://www.site.com)"/>
-    <meta property="og:image" content="/assets/images/social.jpg"/>
-    <meta property="og:image:secure_url" content="/assets/images/social.jpg"/>
-
-    <!--Favicons-->
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png?v1">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/assets/favicons/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-
-    <!-- Preload -->
-    <link rel="preload" as="image" href="assets/images/logo-light.png">
-    <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-regular.woff2" crossorigin>
-    <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-700.woff2" crossorigin>
-
-    <link rel="stylesheet" href="/css/core-styles.css">
-    <link rel="stylesheet" href="/css/portfolio.css">
-    <link rel="stylesheet" href="/css/dark.css">
-
-    <title>Service Keyword Phrase | Company Name | City, State</title>
-</head>
-<body>
-    <!--Screen reader skip main nav-->
-    <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main Content</a>
-
-    <!-- ============================================ -->
-    <!--                 Navigation                   -->
-    <!-- ============================================ -->
-
-    <header id="cs-navigation">
-        <div class="cs-container">
-            <!--Nav Logo-->
-            <a href="/index.html" class="cs-logo" aria-label="back to home">
-                <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Flogo-black.svg" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
-            </a>
-            <!--Navigation List-->
-            <nav class="cs-nav" role="navigation">
-                <!--Mobile Nav Toggle-->
-                <button class="cs-toggle" aria-label="mobile menu toggle">
-                    <div class="cs-box" aria-hidden="true">
-                        <span class="cs-line cs-line1" aria-hidden="true"></span>
-                        <span class="cs-line cs-line2" aria-hidden="true"></span>
-                        <span class="cs-line cs-line3" aria-hidden="true"></span>
-                    </div>
-                </button>
-                <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
-                <div class="cs-ul-wrapper">
-                    <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
-                        <li class="cs-li">
-                            <a href="/index.html" class="cs-li-link">
-                                Home
-                            </a>
-                        </li>
-                        <li class="cs-li">
-                            <a href="/about.html" class="cs-li-link">
-                                About
-                            </a>
-                        </li>
-                        <li class="cs-li">
-                            <a href="/portfolio.html" class="cs-li-link cs-active">
-                                Portfolio
-                            </a>
-                        </li>
-                        <li class="cs-li">
                             <a href="/reviews.html" class="cs-li-link">
                                 Reviews
                             </a>
